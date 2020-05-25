@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import IdCard from './../src/components/IdCard';
 import Random from './../src/components/Random';
+import BoxColor from './../src/components/BoxColor';
 
 const StrongBlock = (props) => {
   const abc = props.message;
@@ -36,6 +37,11 @@ const App = () => {
       <StrongBlock message="Hallo Ludwig" />
       <StrongBlock message="Bonjour François" />
       <h1>Random</h1>
+      <Random min={1} max={6} />
+      <Random min={1} max={100} />
+      <h1>BoxColor</h1>
+      <BoxColor r={255} g={0} b={0} />
+      <BoxColor r={128} g={255} b={0} />
     </div>
   );
 };

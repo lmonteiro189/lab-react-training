@@ -5,6 +5,7 @@ import Random from './../src/components/Random';
 import BoxColor from './../src/components/BoxColor';
 import LikeButton from './components/LikeButton';
 import CountButton from './components/CountButton';
+import Clickable from './components/Clickable';
 
 const StrongBlock = (props) => {
   const abc = props.message;
@@ -17,7 +18,7 @@ const StrongBlock = (props) => {
 
 const App = () => {
   return (
-    <div>
+    <div className="App">
       <h1>1 - Idcard</h1>
       <IdCard
         lastName="Doe"
@@ -44,9 +45,17 @@ const App = () => {
       <h1>4 - BoxColor</h1>
       <BoxColor r={255} g={0} b={0} />
       <BoxColor r={128} g={255} b={0} />
-      <h1>8 and 9 - Like and Count Button</h1>
+      <h1>5 - </h1>
+      <h1>6 - </h1>
+      <h1>7 - </h1>
+      <h1>8 - Like and Count Button</h1>
       <LikeButton />
       <CountButton />
+      <h1>9 - Clickable Picture</h1>
+      <Clickable
+        img="/img/persons/maxence.png"
+        imgOne="/img/persons/maxence-glasses.png"
+      />
     </div>
   );
 };

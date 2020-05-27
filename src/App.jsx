@@ -9,6 +9,8 @@ import Clickable from './components/Clickable';
 import Profiles from './components/Profiles';
 import StrongBlock from './components/Greetings';
 import Creditcard from './components/Creditcard';
+import Forms from './components/Forms';
+import ListTodo from './components/ListTodo';
 
 import Team from './components/Team';
 
@@ -73,8 +75,7 @@ const App = () => {
         bgColor="#ddbb55"
         color="white"
       />
-      <h1>6 - Rating</h1>
-      <h1>7 - </h1>
+      {/* <h1>6 and 7 - Rating</h1> */}
       <h1>8 - Like and Count Button</h1>
       <LikeButton />
       <CountButton />
@@ -83,14 +84,16 @@ const App = () => {
         img="/img/persons/maxence.png"
         imgOne="/img/persons/maxence-glasses.png"
       />
-      <h1>10 - Dice</h1>
+      {/* <h1>10 - Dice</h1>
       <h1>11 - Carousel</h1>
-      <h1>12 - Numbers Table</h1>
+      <h1>12 - Numbers Table</h1> */}
       <h1>13 - Profiles(facebook)</h1>
       <Profiles />
-      <h1>14 - Profiles(Bonus)</h1>
       <h1>Codealong 26/may</h1>
-      <Team />
+      <Forms />
+      <br />
+      <br />
+      <ListTodo />
     </div>
   );
 };

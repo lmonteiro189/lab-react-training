@@ -12,8 +12,6 @@ import Creditcard from './components/Creditcard';
 import Forms from './components/Forms';
 import ListTodo from './components/ListTodo';
 
-import Team from './components/Team';
-
 const App = () => {
   return (
     <div className="App">

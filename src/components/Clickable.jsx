@@ -14,18 +14,6 @@ class Clickable extends Component {
     });
   };
 
-  // })
-  //     this.state = (
-  //       <img src={require('/img/persons/maxence.png')} />
-  //     );
-  //   }
-
-  //   clicked = () => {
-  //     this.setState({
-  //       imgClicked: '/img/persons/maxence-glasses.png',
-  //     });
-  //   };
-
   render() {
     const img = this.props.img;
     const imgOne = this.props.imgOne;

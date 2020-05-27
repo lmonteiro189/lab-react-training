@@ -1,10 +1,12 @@
-.Idcard {
+.box-color {
   display: flex;
   border: 1px solid gray;
 }
-.box-color {
-  border: 1px solid gray;
-}
 .App {
-  margin: 100px;
+  margin: 5em 50% 5em 5em;
+}
+.credicard {
+  border-radius: 5px;
+  border: 1px solid grey;
+  display: flex;
 }

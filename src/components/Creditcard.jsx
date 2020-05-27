@@ -3,8 +3,8 @@ import React from 'react';
 const Creditcard = (props) => {
   // const backcolor: {props.color}
   return (
-    <div className="credicard">
-      <div style={{ backgroundColor: 'backcolor' }}>
+    <div className="credicard" style={{ backgroundColor: props.bgColor }}>
+      <div>
         <p>type: {props.type}</p>
         <p>number: {props.number}</p>
         <p>expirationMonth: {props.expirationMonth} </p>

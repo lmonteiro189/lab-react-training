@@ -73,7 +73,7 @@ const App = () => {
         bgColor="#ddbb55"
         color="white"
       />
-      <h1>6 - </h1>
+      <h1>6 - Rating</h1>
       <h1>7 - </h1>
       <h1>8 - Like and Count Button</h1>
       <LikeButton />
